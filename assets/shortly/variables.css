@@ -1,0 +1,18 @@
+:root {
+  /* URL Shortner Constants */
+  --cyan: hsl(180, 66%, 49%);
+  --button-hover: #9be3e2;
+  --dark-violet: hsl(257, 27%, 26%);
+  --red: hsl(0, 87%, 67%);
+  --gray: hsl(0, 0%, 75%);
+  --grayish: hsl(257, 7%, 63%);
+  --very-dark-blue: hsl(255, 11%, 22%);
+  --very-dark-violet: hsl(260, 8%, 14%);
+  --body-copy-size: 18px;
+  --font-fam: "Poppins", sans-serif;
+  --container-max-width-desktop: 1110px;
+  --container-max-width-mobile: 350px;
+  --border-radius: 8px;
+  --page-padding: 1rem;
+  --container-wrapper-padding: 1rem;
+}
