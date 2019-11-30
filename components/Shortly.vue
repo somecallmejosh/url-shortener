@@ -1,17 +1,22 @@
 <template>
   <div class="container-max shortly-urls">
     <div v-for="(url, index) in shortlyData" :key="index" class="shortly-url">
-      <div class="original-url">{{url.url}}</div>
+      <div class="original-url">
+        <span>{{ url.url }}</span>
+      </div>
       <div class="response">
         <a
           :href="'https://rel.ink/' + url.hash"
           class="new-url"
           targe="_blank"
           rel="nofollow"
-        >https://rel.ink/{{url.hash}}</a>
+          >https://rel.ink/{{ url.hash }}</a
+        >
         <div class="copy">
           <client-only>
-            <v-button layout="inline" v-copy="'https://rel.ink/' + url.hash">Copy</v-button>
+            <v-button layout="inline" v-copy="'https://rel.ink/' + url.hash"
+              >Copy</v-button
+            >
           </client-only>
         </div>
       </div>
@@ -52,6 +57,15 @@ export default {
   border-bottom: #e6e6e6 1px solid;
 }
 
+.original-url span {
+  display: block;
+  color: var(--very-dark-violet);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+}
+
 .response a {
   color: var(--cyan);
   display: block;
@@ -72,10 +86,6 @@ export default {
   .response > div {
     color: var(--cyan);
     margin-left: 1rem;
-  }
-
-  .shortly-urls {
-    padding: 0 0.5rem;
   }
 
   .shortly-url > div {

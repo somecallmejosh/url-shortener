@@ -7,8 +7,10 @@
     </ul>
     <ul class="admin-nav">
       <li v-for="(link, index) in adminNav" :key="index">
-        <nuxt-link v-if="link.class != 'button'" :to="link.route">{{link.text}}</nuxt-link>
-        <v-button v-else :url="link.route">{{link.text}}</v-button>
+        <nuxt-link v-if="link.class != 'button'" :to="link.route">{{
+          link.text
+        }}</nuxt-link>
+        <v-button v-else :url="link.route">{{ link.text }}</v-button>
       </li>
     </ul>
   </nav>
@@ -63,7 +65,7 @@ export default {
 
 .header-nav a {
   color: #fff;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .header-nav ul {
@@ -100,7 +102,7 @@ export default {
 
   .header-nav a {
     color: var(--grayish);
-    font-size: 0.78rem;
+    font-size: 1rem;
   }
 
   .header-nav a:hover {

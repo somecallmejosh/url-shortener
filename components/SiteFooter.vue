@@ -4,10 +4,10 @@
       <h2>Shortly</h2>
       <nav>
         <div v-for="(item, index) in footerLinks" :key="index">
-          <h3>{{item.header}}</h3>
+          <h3>{{ item.header }}</h3>
           <ul class="list-reset">
             <li v-for="(link, index) in item.links" :key="index">
-              <nuxt-link :to="link.route">{{link.text}}</nuxt-link>
+              <nuxt-link :to="link.route">{{ link.text }}</nuxt-link>
             </li>
           </ul>
         </div>
@@ -147,13 +147,13 @@ a:hover {
 }
 
 h3 {
-  font-size: 0.89rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
 li {
   line-height: 2;
-  font-size: 0.78rem;
+  font-size: 1rem;
 }
 
 .social-grid {

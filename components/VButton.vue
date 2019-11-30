@@ -32,7 +32,7 @@ export default {
   color: #fff;
   cursor: pointer;
   display: flex;
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: bold;
   height: 2.7rem;
   justify-content: center;

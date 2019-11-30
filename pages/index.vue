@@ -429,8 +429,10 @@
           <v-button url="/" :layout="'inline'">Get Started</v-button>
         </div>
       </div>
+    </div>
 
-      <form action class="container-max" @submit.prevent="formSubmit()">
+    <div class="form-wrapper">
+      <form class="container-max" action @submit.prevent="formSubmit()">
         <label for="textToShorten" class="visually-hidden"
           >Enter the text you would like shortened.</label
         >
@@ -457,10 +459,11 @@
         </div>
       </form>
     </div>
+
     <div class="info">
       <shortly :shortlyData="shortlyLinks" />
       <div class="section-header container-max">
-        <h2>Advanced Statistics {{ shortlyLinks.length }}</h2>
+        <h2>Advanced Statistics</h2>
         <p>
           Track how your links are performing across the web with our advanced
           statistics dashboard.
@@ -553,11 +556,6 @@ export default {
   max-width: var(--container-max-width-desktop);
   padding: 0 var(--container-wrapper-padding);
   text-align: center;
-  position: relative;
-}
-
-.call-to-action-wrap .button-wrapper {
-  min-height: 11.1rem;
 }
 
 .call-to-action h1 {
@@ -570,16 +568,20 @@ export default {
   margin-bottom: 0.83rem;
 }
 
+.call-to-action-wrap > div:last-child {
+  margin-bottom: 4rem;
+}
+
+.form-wrapper {
+  background: linear-gradient(#fff 50%, #f0f1f6 50%);
+}
+
 form {
   background: var(--very-dark-blue) url(/images/bg-shorten-mobile.svg) top right
     no-repeat;
   border-radius: var(--border-radius);
-  bottom: 0;
   color: #fff;
-  left: 50%;
   padding: 1.3rem;
-  position: absolute;
-  transform: translateY(50%) translateX(-50%);
 }
 
 input {
@@ -588,6 +590,48 @@ input {
   background-color: #fff;
   font-size: 16px;
   padding: 0 var(--container-wrapper-padding);
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--gray);
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--gray);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--gray);
+  opacity: 1;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--gray);
+  opacity: 1;
+}
+
+input.error::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--red);
+  opacity: 0.6;
+}
+input.error::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--red);
+  opacity: 0.6;
+}
+input.error:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--red);
+  opacity: 0.6;
+}
+input.error:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--red);
+  opacity: 0.6;
 }
 
 .form-group:first-of-type {
@@ -615,7 +659,8 @@ form button {
 
 .info {
   background-color: #f0f1f6;
-  padding: 5rem 0.56rem 4.4rem;
+  overflow: hidden;
+  padding: 1rem 0.56rem 0;
 }
 
 .info.no-results {
@@ -667,16 +712,13 @@ form button {
     padding-bottom: 3.7rem;
   }
 
-  .call-to-action-wrap .button-wrapper {
-    min-height: initial;
-  }
-
   .call-to-action-wrap div:first-child {
     order: 1;
   }
 
   .call-to-action-wrap div:last-child {
     order: 0;
+    margin-bottom: 0;
   }
 
   form {
@@ -690,6 +732,12 @@ form button {
 
   .form-group:first-of-type {
     margin-bottom: 0;
+  }
+
+  .info {
+    background-color: #f0f1f6;
+    overflow: hidden;
+    padding-bottom: 5rem;
   }
 
   .teasers > div {

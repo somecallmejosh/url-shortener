@@ -10,11 +10,15 @@
         </svg>
       </nuxt-link>
 
-      <site-nav :class="{'menu-hidden' : menuHidden == true}" />
+      <site-nav :class="{ 'menu-hidden': menuHidden == true }" />
 
       <button class="nav-toggle mobile-only" @click="toggleMenu()">
         <span class="visually-hidden">Menu</span>
-        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <svg
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
           <path
             d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
           />
@@ -87,11 +91,11 @@ header button {
   border: none;
   cursor: pointer;
   fill: var(--gray);
-  height: 1.3rem;
+  height: 2rem;
 }
 
 header button svg {
-  height: 1.3rem;
+  height: 2rem;
 }
 
 .menu-hidden {
