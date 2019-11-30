@@ -10,9 +10,9 @@
           rel="nofollow"
         >https://rel.ink/{{url.hash}}</a>
         <div class="copy">
-          <no-ssr>
+          <client-only>
             <v-button layout="inline" v-copy="'https://rel.ink/' + url.hash">Copy</v-button>
-          </no-ssr>
+          </client-only>
         </div>
       </div>
     </div>

@@ -7,13 +7,15 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
+    title: "Shorly",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: pkg.description }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/images/favicon-32x32.png" }
+    ]
   },
 
   /*
@@ -33,7 +35,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ["~/plugins/vuetensils.js"],
+  plugins: ["~/plugins/vuelidate.js", "~/plugins/vuetensils.js"],
 
   /*
    ** Nuxt.js modules

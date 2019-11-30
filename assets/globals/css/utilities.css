@@ -9,6 +9,9 @@
 .list-inline {
   display: inline-flex;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 
 .visually-hidden { 
   position: absolute !important;

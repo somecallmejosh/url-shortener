@@ -2,9 +2,9 @@
   <div>
     <div class="teaser" v-for="(item, index) in cardData" :key="index">
       <div class="teaser-image">
-        <no-ssr>
+        <client-only>
           <VImg :src="require(`../assets/shortly/images/${item.image}`)" />
-        </no-ssr>
+        </client-only>
       </div>
       <h3>{{item.header}}</h3>
       <p>{{item.text}}</p>
