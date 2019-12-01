@@ -3,7 +3,7 @@
     <nuxt-link v-if="url" class="button link inline" :to="url" :class="layout">
       <slot></slot>
     </nuxt-link>
-    <button v-else class="button submit">
+    <button v-else class="button submit" :class="layout">
       <slot></slot>
     </button>
   </div>
@@ -59,6 +59,10 @@ export default {
   background: var(--button-hover);
   border-color: var(--button-hover);
   color: #fff;
+}
+
+.button.alt {
+  background-color: var(--dark-violet);
 }
 
 @media (min-width: 1024) {

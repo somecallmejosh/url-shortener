@@ -10,13 +10,10 @@
           class="new-url"
           targe="_blank"
           rel="nofollow"
-          >https://rel.ink/{{ url.hash }}</a
-        >
+        >https://rel.ink/{{ url.hash }}</a>
         <div class="copy">
           <client-only>
-            <v-button layout="inline" v-copy="'https://rel.ink/' + url.hash"
-              >Copy</v-button
-            >
+            <copy-button :text="'https://rel.ink/' + url.hash" />
           </client-only>
         </div>
       </div>
@@ -25,9 +22,9 @@
 </template>
 
 <script>
-import VButton from "~/components/VButton.vue";
+import CopyButton from "~/components/CopyButton.vue";
 export default {
-  components: { VButton },
+  components: { CopyButton },
   props: {
     shortlyData: {
       type: Array,
@@ -57,9 +54,13 @@ export default {
   border-bottom: #e6e6e6 1px solid;
 }
 
+.original-url {
+  flex-grow: 1;
+}
+
 .original-url span {
-  display: block;
   color: var(--very-dark-violet);
+  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

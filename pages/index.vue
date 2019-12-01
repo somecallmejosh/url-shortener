@@ -9,43 +9,19 @@
                 <stop offset="0%" stop-color="#183866" />
                 <stop offset="100%" stop-color="#1A7FC1" />
               </linearGradient>
-              <linearGradient
-                id="b"
-                x1="-.13%"
-                x2="100%"
-                y1="50.057%"
-                y2="50.057%"
-              >
+              <linearGradient id="b" x1="-.13%" x2="100%" y1="50.057%" y2="50.057%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="c"
-                x1="176.072%"
-                x2="310.393%"
-                y1="-566.037%"
-                y2="-534.629%"
-              >
+              <linearGradient id="c" x1="176.072%" x2="310.393%" y1="-566.037%" y2="-534.629%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="d"
-                x1="58.928%"
-                x2="52.269%"
-                y1="-257.998%"
-                y2="-277.344%"
-              >
+              <linearGradient id="d" x1="58.928%" x2="52.269%" y1="-257.998%" y2="-277.344%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="e"
-                x1="156.099%"
-                x2="8.109%"
-                y1="-63.273%"
-                y2="-76.114%"
-              >
+              <linearGradient id="e" x1="156.099%" x2="8.109%" y1="-63.273%" y2="-76.114%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
@@ -59,146 +35,62 @@
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="g"
-                x1="241.391%"
-                x2="133.142%"
-                y1="-426.052%"
-                y2="-412.195%"
-              >
+              <linearGradient id="g" x1="241.391%" x2="133.142%" y1="-426.052%" y2="-412.195%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="h"
-                x1="106.85%"
-                x2="-35.821%"
-                y1="22.502%"
-                y2="19.27%"
-              >
+              <linearGradient id="h" x1="106.85%" x2="-35.821%" y1="22.502%" y2="19.27%">
                 <stop offset="0%" />
                 <stop offset="100%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="i"
-                x1="14.169%"
-                x2="114.168%"
-                y1="-41.335%"
-                y2="-41.335%"
-              >
+              <linearGradient id="i" x1="14.169%" x2="114.168%" y1="-41.335%" y2="-41.335%">
                 <stop offset="0%" stop-color="#183866" />
                 <stop offset="100%" stop-color="#1A7FC1" />
               </linearGradient>
-              <linearGradient
-                id="j"
-                x1="40.386%"
-                x2="71.43%"
-                y1="39.515%"
-                y2="67.977%"
-              >
+              <linearGradient id="j" x1="40.386%" x2="71.43%" y1="39.515%" y2="67.977%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="k"
-                x1="-12.531%"
-                x2="93.689%"
-                y1="44.923%"
-                y2="53.42%"
-              >
+              <linearGradient id="k" x1="-12.531%" x2="93.689%" y1="44.923%" y2="53.42%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="l"
-                x1="53.702%"
-                x2="43.721%"
-                y1="42.271%"
-                y2="80.595%"
-              >
+              <linearGradient id="l" x1="53.702%" x2="43.721%" y1="42.271%" y2="80.595%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="m"
-                x1="190.926%"
-                x2="102.154%"
-                y1="-333.246%"
-                y2="-335.028%"
-              >
+              <linearGradient id="m" x1="190.926%" x2="102.154%" y1="-333.246%" y2="-335.028%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="n"
-                x1="168.578%"
-                x2="111.53%"
-                y1="-126.252%"
-                y2="-126.942%"
-              >
+              <linearGradient id="n" x1="168.578%" x2="111.53%" y1="-126.252%" y2="-126.942%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="o"
-                x1="56.989%"
-                x2="28.128%"
-                y1="43.618%"
-                y2="69.958%"
-              >
+              <linearGradient id="o" x1="56.989%" x2="28.128%" y1="43.618%" y2="69.958%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="p"
-                x1="58.095%"
-                x2="57.212%"
-                y1="-1473.571%"
-                y2="-1370.204%"
-              >
+              <linearGradient id="p" x1="58.095%" x2="57.212%" y1="-1473.571%" y2="-1370.204%">
                 <stop offset="0%" />
                 <stop offset="99%" stop-opacity="0" />
               </linearGradient>
-              <linearGradient
-                id="q"
-                x1="-.04%"
-                x2="99.996%"
-                y1="49.993%"
-                y2="49.993%"
-              >
+              <linearGradient id="q" x1="-.04%" x2="99.996%" y1="49.993%" y2="49.993%">
                 <stop offset="0%" stop-color="#ECC4D7" />
                 <stop offset="42%" stop-color="#EFD4D1" />
                 <stop offset="100%" stop-color="#F2EAC9" />
               </linearGradient>
-              <linearGradient
-                id="r"
-                x1="99.032%"
-                x2="199.03%"
-                y1="-163.287%"
-                y2="-163.287%"
-              >
+              <linearGradient id="r" x1="99.032%" x2="199.03%" y1="-163.287%" y2="-163.287%">
                 <stop offset="0%" stop-color="#ECC4D7" />
                 <stop offset="42%" stop-color="#EFD4D1" />
                 <stop offset="100%" stop-color="#F2EAC9" />
               </linearGradient>
-              <linearGradient
-                id="s"
-                x1="124.306%"
-                x2="224.306%"
-                y1="-84.564%"
-                y2="-84.564%"
-              >
+              <linearGradient id="s" x1="124.306%" x2="224.306%" y1="-84.564%" y2="-84.564%">
                 <stop offset="0%" stop-color="#ECC4D7" />
                 <stop offset="42%" stop-color="#EFD4D1" />
                 <stop offset="100%" stop-color="#F2EAC9" />
               </linearGradient>
-              <linearGradient
-                id="t"
-                x1="128.89%"
-                x2="24.06%"
-                y1="100.36%"
-                y2="153.095%"
-              >
+              <linearGradient id="t" x1="128.89%" x2="24.06%" y1="100.36%" y2="153.095%">
                 <stop offset="0%" stop-color="#362958" stop-opacity=".501" />
                 <stop offset="100%" stop-color="#34313D" stop-opacity="0" />
               </linearGradient>
@@ -229,15 +121,9 @@
               <circle cx="255" cy="395" r="11" fill="#25233A" />
               <circle cx="253.5" cy="397.5" r="5.5" fill="#3F3D56" />
               <circle cx="210" cy="384" r="11" fill="#25233A" />
-              <path
-                fill="url(#a)"
-                d="M214 384.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
-              />
+              <path fill="url(#a)" d="M214 384.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" />
               <circle cx="207" cy="399" r="11" fill="#25233A" />
-              <path
-                fill="#3F3D56"
-                d="M216 399.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z"
-              />
+              <path fill="#3F3D56" d="M216 399.5a5.5 5.5 0 11-11 0 5.5 5.5 0 0111 0z" />
               <path
                 fill="#2BD0D0"
                 d="M257.085 390.874l-50.787-10.046c-3.574-.717-5.884-4.13-5.168-7.636.732-3.5 4.21-5.764 7.785-5.066l50.787 10.027c3.574.717 5.884 4.13 5.168 7.637-.723 3.507-4.204 5.781-7.785 5.084z"
@@ -268,10 +154,7 @@
                 d="M262.289 389.8c-.97.523-2.061.797-3.17.796a7.063 7.063 0 01-1.33-.13l-22.407-4.406-1.867-.363a6.54 6.54 0 01-2.133 1.055l-1.11.317-23.025 6.666c-3.514 1.007-7.202-.943-8.247-4.362 1.997 1.805 5.029 1.973 7.223.401 2.811-1.896 14.002-4.743 20.341-6.257 2.996-.698 5.288-3.05 5.848-6 .016-.173.042-.346.08-.517 1.056 1.113 2.997 2.362 6.505 3.423 8.64 2.589 22.667 4.304 22.667 4.304s2.532 2.42.625 5.073z"
                 opacity=".31"
               />
-              <path
-                fill="url(#f)"
-                d="M264 388a7.624 7.624 0 01-2 2 119.75 119.75 0 002-2z"
-              />
+              <path fill="url(#f)" d="M264 388a7.624 7.624 0 01-2 2 119.75 119.75 0 002-2z" />
               <path
                 fill="url(#g)"
                 d="M226.3 370.559a6.82 6.82 0 001.7 3.13c-.21.039-.425.092-.641.151L206.088 380c-3.271-.813-5.426-3.865-5.044-7.146.381-3.28 3.181-5.781 6.556-5.854a7.14 7.14 0 011.35.132l17.35 3.427z"
@@ -306,14 +189,8 @@
                 fill="url(#j)"
                 d="M267 259.38l.57 2.114s16.881 10.173 16.775 10.501c-.106.328 70.024-16.24 70.024-16.24L356 251l-89 8.38z"
               />
-              <path
-                fill="#2BD0D0"
-                d="M268 259.364L330.107 246 356 251.054 285.442 268z"
-              />
-              <path
-                fill="url(#k)"
-                d="M268 259.364L330.107 246 356 251.054 285.442 268z"
-              />
+              <path fill="#2BD0D0" d="M268 259.364L330.107 246 356 251.054 285.442 268z" />
+              <path fill="url(#k)" d="M268 259.364L330.107 246 356 251.054 285.442 268z" />
               <path
                 fill="#2BD0D0"
                 d="M247.832 270.484l14.457.512s3.672.228 4.62-2.717c.95-2.945-5.89-9.16-6.622-9.277-.733-.118-19.76 5.22-17.017 10.556l4.562.926z"
@@ -433,29 +310,29 @@
 
     <div class="form-wrapper">
       <form class="container-max" action @submit.prevent="formSubmit()">
-        <label for="textToShorten" class="visually-hidden"
-          >Enter the text you would like shortened.</label
-        >
+        <label for="textToShorten" class="visually-hidden">Enter the text you would like shortened.</label>
         <div class="form-group">
           <input
             name="textToShorten"
             v-model="textToShorten"
             type="text"
             placeholder="Shorten a link here…"
-            @blur="$v.$touch()"
-            :class="{ error: $v.$error }"
+            @change="$v.textToShorten.$touch()"
+            :class="{ error: $v.textToShorten.$error }"
           />
           <div class="w-full" v-if="$v.textToShorten.$error">
-            <em v-if="!$v.textToShorten.required" class="error-message">
-              Please add a link!
-            </em>
-            <em v-if="!$v.textToShorten.url" class="error-message">
-              Please add a valid url! Example: http://www.mylink.com
-            </em>
+            <em v-if="!$v.textToShorten.required" class="error-message">Please add a link!</em>
+            <em
+              v-if="!$v.textToShorten.url"
+              class="error-message"
+            >Please add a valid url! Example: http://www.mylink.com</em>
           </div>
         </div>
         <div class="form-group">
-          <v-button :layout="'submit'">Shorten It!</v-button>
+          <v-button :layout="'submit'">
+            <span v-if="!formLoading">Shorten It!</span>
+            <span v-else>...loading</span>
+          </v-button>
         </div>
       </form>
     </div>
@@ -477,18 +354,18 @@
 </template>
 
 <script>
-import axios from "axios";
 import Card from "~/components/Card.vue";
-import VButton from "~/components/VButton.vue";
 import Shortly from "~/components/Shortly.vue";
+import VButton from "~/components/VButton.vue";
+import axios from "axios";
 import { required, url } from "vuelidate/lib/validators";
 export default {
   layout: "shortly",
   data() {
     return {
       shortlyLinks: [],
-      shortlyRequestError: false,
       textToShorten: null,
+      formLoading: false,
       teasers: [
         {
           header: "Brand Recognition",
@@ -530,16 +407,18 @@ export default {
       const ip = await axios.post("https://rel.ink/api/links/", {
         url: this.textToShorten
       });
-      this.shortlyLinks.push({ hash: ip.data.hashid, url: ip.data.url });
+      this.shortlyLinks.unshift({ hash: ip.data.hashid, url: ip.data.url });
       localStorage["shortly"] = JSON.stringify(this.shortlyLinks);
     },
     formSubmit() {
+      this.formLoading = true;
       this.$v.$touch();
       if (!this.$v.$invalid) {
         this.getShortly();
       } else {
         console.log("Invalid Form");
       }
+      this.formLoading = false;
     }
   },
   validations() {
@@ -657,6 +536,10 @@ form button {
   width: 100%;
 }
 
+.form-wrapper {
+  padding: 0 0.5rem;
+}
+
 .info {
   background-color: #f0f1f6;
   overflow: hidden;
@@ -728,6 +611,10 @@ form button {
     grid-template-columns: 3fr 1fr;
     grid-column-gap: 0.56rem;
     padding: 2.7rem 3.3rem;
+  }
+
+  .form-wrapper {
+    padding: 0 0;
   }
 
   .form-group:first-of-type {
