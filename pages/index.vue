@@ -309,7 +309,7 @@
     </div>
 
     <div class="form-wrapper">
-      <form class="container-max" action @submit.prevent="formSubmit()">
+      <form class="container-max" @submit.prevent="formSubmit()">
         <label for="textToShorten" class="visually-hidden">Enter the text you would like shortened.</label>
         <div class="form-group">
           <input
@@ -317,7 +317,7 @@
             v-model="textToShorten"
             type="text"
             placeholder="Shorten a link here…"
-            @change="$v.textToShorten.$touch()"
+            @blur="$v.textToShorten.$touch()"
             :class="{ error: $v.textToShorten.$error }"
           />
           <div class="w-full" v-if="$v.textToShorten.$error">
@@ -415,6 +415,8 @@ export default {
       this.$v.$touch();
       if (!this.$v.$invalid) {
         this.getShortly();
+        this.textToShorten = null;
+        this.$v.$reset();
       } else {
         console.log("Invalid Form");
       }
