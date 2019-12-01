@@ -303,13 +303,13 @@
             Build your brand's recognition and get detailed insights on how your
             links are performing.
           </p>
-          <v-button url="/" :layout="'inline'">Get Started</v-button>
+          <v-button url="#shortenit" :layout="'inline'">Get Started</v-button>
         </div>
       </div>
     </div>
 
     <div class="form-wrapper">
-      <form class="container-max" @submit.prevent="formSubmit()">
+      <form class="container-max" @submit.prevent="formSubmit()" id="shortenit">
         <label for="textToShorten" class="visually-hidden">Enter the text you would like shortened.</label>
         <div class="form-group">
           <input

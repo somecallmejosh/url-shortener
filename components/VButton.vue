@@ -1,8 +1,8 @@
 <template>
   <div class="button-wrapper">
-    <nuxt-link v-if="url" class="button link inline" :to="url" :class="layout">
+    <a v-if="url" class="button link inline" :href="url" :class="layout">
       <slot></slot>
-    </nuxt-link>
+    </a>
     <button v-else class="button submit" :class="layout">
       <slot></slot>
     </button>

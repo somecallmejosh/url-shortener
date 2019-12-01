@@ -7,9 +7,11 @@
     </ul>
     <ul class="admin-nav">
       <li v-for="(link, index) in adminNav" :key="index">
-        <nuxt-link v-if="link.class != 'button'" :to="link.route">{{
+        <nuxt-link v-if="link.class != 'button'" :to="link.route">
+          {{
           link.text
-        }}</nuxt-link>
+          }}
+        </nuxt-link>
         <v-button v-else :url="link.route">{{ link.text }}</v-button>
       </li>
     </ul>
@@ -22,26 +24,26 @@ export default {
     return {
       adminNav: [
         {
-          route: "/login",
+          route: "#",
           text: "Login"
         },
         {
           class: "button",
-          route: "/sign-up",
+          route: "#",
           text: "Sign Up"
         }
       ],
       siteNav: [
         {
-          route: "/features",
+          route: "#",
           text: "Features"
         },
         {
-          route: "/pricing",
+          route: "#",
           text: "Pricing"
         },
         {
-          route: "/resources",
+          route: "#",
           text: "Resources"
         }
       ]

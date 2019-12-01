@@ -1,5 +1,5 @@
 <template>
-  <div class="container-max shortly-urls">
+  <div class="container-max shortly-urls" aria-live="polite">
     <div v-for="(url, index) in shortlyData" :key="index" class="shortly-url">
       <div class="original-url">
         <span>{{ url.url }}</span>

@@ -65,15 +65,15 @@ export default {
           header: "Features",
           links: [
             {
-              route: "/link-shortening",
+              route: "#",
               text: "Link Shortnening"
             },
             {
-              route: "/branded-links",
+              route: "#",
               text: "Branded Links"
             },
             {
-              route: "/analytics",
+              route: "#",
               text: "Analytics"
             }
           ]
@@ -82,15 +82,15 @@ export default {
           header: "Resources",
           links: [
             {
-              route: "/blog",
+              route: "#",
               text: "Blog"
             },
             {
-              route: "/developers",
+              route: "#",
               text: "Developers"
             },
             {
-              route: "/support",
+              route: "#",
               text: "Support"
             }
           ]
@@ -99,19 +99,19 @@ export default {
           header: "Company",
           links: [
             {
-              route: "/about",
+              route: "#",
               text: "About"
             },
             {
-              route: "/our-team",
+              route: "#",
               text: "Our Team"
             },
             {
-              route: "/careers",
+              route: "#",
               text: "Careers"
             },
             {
-              route: "/contact",
+              route: "#",
               text: "Contact"
             }
           ]

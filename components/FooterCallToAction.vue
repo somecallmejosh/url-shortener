@@ -2,7 +2,7 @@
   <section>
     <div class="container-max">
       <h2>Boost your links today</h2>
-      <v-button url="/" :layout="'inline'">Get Started</v-button>
+      <v-button url="#shortenit" :layout="'inline'">Get Started</v-button>
     </div>
   </section>
 </template>
