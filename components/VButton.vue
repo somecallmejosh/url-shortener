@@ -65,7 +65,7 @@ export default {
   background-color: var(--dark-violet);
 }
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
   .button {
     display: inline-flex;
     font-size: 0.7rem;
