@@ -3,7 +3,7 @@
     <div class="teaser" v-for="(item, index) in cardData" :key="index">
       <div class="teaser-image">
         <client-only>
-          <VImg :src="require(`../assets/shortly/images/${item.image}`)" />
+          <VImg :src="require(`../assets/shortly/images/${item.image}`)" alt="" />
         </client-only>
       </div>
       <h3>{{item.header}}</h3>

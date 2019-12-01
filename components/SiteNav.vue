@@ -8,9 +8,7 @@
     <ul class="admin-nav">
       <li v-for="(link, index) in adminNav" :key="index">
         <nuxt-link v-if="link.class != 'button'" :to="link.route">
-          {{
-          link.text
-          }}
+          {{link.text}}
         </nuxt-link>
         <v-button v-else :url="link.route">{{ link.text }}</v-button>
       </li>

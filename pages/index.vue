@@ -310,10 +310,11 @@
 
     <div class="form-wrapper">
       <form class="container-max" @submit.prevent="formSubmit()" id="shortenit">
-        <label for="textToShorten" class="visually-hidden">Enter the text you would like shortened.</label>
         <div class="form-group">
+          <label for="text-to-shorten" class="visually-hidden">Enter the url you would like shortened.</label>
           <input
-            name="textToShorten"
+            name="text-to-shorten"
+            id="text-to-shorten"
             v-model="textToShorten"
             type="text"
             placeholder="Shorten a link here…"
