@@ -311,7 +311,10 @@
     <div class="form-wrapper">
       <form class="container-max" @submit.prevent="formSubmit()" id="shortenit">
         <div class="form-group">
-          <label for="text-to-shorten" class="visually-hidden">Enter the url you would like shortened.</label>
+          <label
+            for="text-to-shorten"
+            class="visually-hidden"
+          >Enter the url you would like shortened.</label>
           <input
             name="text-to-shorten"
             id="text-to-shorten"
@@ -472,6 +475,10 @@ input {
   background-color: #fff;
   font-size: 16px;
   padding: 0 var(--container-wrapper-padding);
+}
+
+form .button.submit {
+  height: 2.6rem;
 }
 
 ::-webkit-input-placeholder {
